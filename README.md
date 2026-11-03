@@ -1,0 +1,2 @@
+# personalized-product-recommendation-system-built-with-Java-AWT
+A personalized product recommendation system built with Java AWT. Customers can log in, search products, shop and view orders, while an admin panel manages the catalogue. Recommendations are ranked by age, gender, season, purchase history and search history, each with a clear reason. Data is stored in simple CSV files, no database needed.
