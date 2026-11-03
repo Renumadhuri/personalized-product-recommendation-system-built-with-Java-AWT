@@ -1,0 +1,12 @@
+id,name,email,passwordHash,role,age,gender,city
+1,Admin,admin@miniso.com,240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9,ADMIN,30,Other,Chennai
+2,Priya,priya@gmail.com,0a8b8dfad3f637d7d30fed7b108c5c5986c4775d14cab26ec9279866eba99116,CUSTOMER,22,Female,Chennai
+3,Ravi,ravi@gmail.com,18c43de4137739ba1abe4fbb837663c3ad71b4045fe09c51b209d2d47fb5fdea,CUSTOMER,35,Male,Sivakasi
+4,Sneha,sneha@gmail.com,59b6bc9484a2c8ea7c20a3c0778088295e6f8e62a6a90b6d535b3b6bceb2fcd0,CUSTOMER,12,Female,Sivakasi
+5,Arun,arun@gmail.com,1f1d5f931045a65e39114639ae0567c60cd8fa32f43ce275a73375735d350fbb,CUSTOMER,17,Male,Madurai
+6,Sai Rahul,sairahul@gmail.com,517cc43f30eecdf9afa241471b3bc061d59472aca804a93408da7981a3ca79f2,CUSTOMER,26,Male,tirupati
+7,vedhi,a@g.com,fb38eada93045dfeb4652c2d5d102a7e33bf1dff9861cc6576424aa95b215ff4,CUSTOMER,19,Female,blore
+8,ravi,ravikanth@gmail.com,722d0764e34a37df54c5263f16bcb803d92243f2a2160503e7e387f83c22d045,CUSTOMER,22,Male,tirupathi
+9,sushmitha,sushmitha@gmail.com,f1a9f464124e0d48685147e8c115502c84fff948eb4d4144dbeda36fcb5dc37b,CUSTOMER,24,Female,banglore
+10,dakshitha,dakshitha@gmail.com,d3d1d3e13116cb3e5b4a15c9513681edcf56e3e3964cbd85dbfc7700f075252b,CUSTOMER,24,Female,banglore
+11,Rahul,rahul@gmail.com,f1a9f464124e0d48685147e8c115502c84fff948eb4d4144dbeda36fcb5dc37b,CUSTOMER,25,Male,Tirupathi

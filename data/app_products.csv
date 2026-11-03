@@ -1,0 +1,49 @@
+id,name,category,price,stock,season,audience
+101,Plush Toy Bear,Toys,499.0,20,All,Kids
+102,Building Blocks Set,Toys,699.0,15,All,Kids
+103,Water Gun,Toys,299.0,25,Summer,Kids
+110,Sling Bag,Bags,899.0,12,All,Teens
+111,Travel Backpack,Bags,1299.0,10,All,Adults
+120,Lip Balm,Beauty,199.0,39,Winter,Adults
+121,Sunscreen Lotion,Beauty,399.0,30,Summer,Adults
+130,Umbrella,Accessories,449.0,18,Monsoon,All
+131,Insulated Bottle,Home,599.0,22,All,Adults
+132,Scented Candle,Home,349.0,16,Winter,Adults
+133,Notebook Set,Stationery,249.0,50,All,Teens
+134,Gel Pen Pack,Stationery,149.0,60,All,Teens
+135,Raincoat,Accessories,799.0,14,Monsoon,All
+136,silver chain,accessories,1299.0,25,All,All
+137,Water Bottle,Kitchen&Dining,299.0,25,All,All
+138,NoteBook,Stationery,99.0,50,All,Kids
+139,BallPoint,Stationery,49.0,60,All,Kids
+140,HairClip,Accessories,99.0,60,All,Teens
+141,HairBand,Accessories,79.0,76,All,Teens
+142,Hand Cream,Beauty & Personal Care,199.0,25,All,Adults
+143,Face Mask,Beauty & Personal Care,59.0,40,All,Teens
+144,Handbag,Bags & Accessories,599.0,32,All,Adults
+145,Wallet,Accessories,299.0,18,All,Adults
+146,Mini Perfume,Fragrances,299.0,100,All,All
+147,Makeup Pouch,Bags & Accessories,199.0,45,All,All
+148,Lunch Box,Kitchen & Dining,349.0,32,All,All
+149,Coffee Mug,Coffee Mug,199.0,46,All,All
+150,Phone Case,Electronics Accessories,199.0,46,All,Adults
+151,Table Lamp,Home & Living,499.0,46,All,All
+152,Storage Box,Home & Living,999.0,23,All,All
+153,Ankle Socks,Fashion Accessories,149.0,100,All,All
+154,Portable Mirror,Beauty Accessories,129.0,29,All,All
+155,Makeup Brush Set,Beauty & Personal Care,349.0,30,All,Adults
+156,Facial Cleansing Brush,Beauty & Personal Care,199.0,45,All,Adults
+157,Bath Sponge,Bath Accessories,79.0,60,All,All
+158,Silicone Spatula,Kitchen & Dining,129.0,34,All,All
+159,Measuring Cup Set,Kitchen & Dining,149.0,67,All,All
+160,Ice Cube Tray,Kitchen & Dining,99.0,65,All,All
+161,Vegetable Peeler,Kitchen & Dining,99.0,60,All,All
+162,Stud Earrings,Fashion Accessories,149.0,69,All,Teens
+163,Wall Clock,Home Decor,499.0,20,All,All
+164,Waterproof Shoe Covers,Accessories,199.0,50,All,All
+165,Waterproof Backpack Cover,Travel Accessories,599.0,60,All,All
+166,Thermal Water Bottle,Accessories,399.0,50,All,All
+167,Fleece Neck Warmer,Accessories,249.0,100,All,All
+168,Cooling Eye Mask,Personal Care,149.0,699,All,All
+169,Soft Indoor Slippers,Footwear,299.0,90,All,All
+170,Mini Portable Hand Fan,Electronics Accessories,299.0,50,All,All

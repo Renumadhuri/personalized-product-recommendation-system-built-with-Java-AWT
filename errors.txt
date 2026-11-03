@@ -1,0 +1,88 @@
+Picked up JAVA_TOOL_OPTIONS: -Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8
+MinisoApp.java:1: error: cannot access DataStore
+import app.DataStore;
+          ^
+  bad source file: .\app\DataStore.java
+    file does not contain class app.DataStore
+    Please remove or make sure it appears in the correct subdirectory of the sourcepath.
+.\gui\DataStore.java:9: error: duplicate class: DataStore
+public class DataStore {
+       ^
+.\gui\LoginFrame.java:24: error: cannot access DataStore
+    private final DataStore store;
+                  ^
+  bad source file: .\gui\DataStore.java
+    file does not contain class gui.DataStore
+    Please remove or make sure it appears in the correct subdirectory of the sourcepath.
+MinisoApp.java:11: error: cannot find symbol
+            store.load();
+                 ^
+  symbol:   method load()
+  location: variable store of type DataStore
+MinisoApp.java:16: error: LoginFrame(DataStore) is not public in LoginFrame; cannot be accessed from outside package
+        new LoginFrame(store);
+        ^
+.\gui\RecommendPanel.java:5: error: cannot find symbol
+import engine.Recommendation;
+             ^
+  symbol:   class Recommendation
+  location: package engine
+.\gui\MainFrame.java:43: error: no suitable method found for add(ProductsPanel,String)
+        center.add(products, "products");
+              ^
+    method Container.add(String,Component) is not applicable
+      (argument mismatch; ProductsPanel cannot be converted to String)
+    method Container.add(Component,int) is not applicable
+      (argument mismatch; ProductsPanel cannot be converted to Component)
+    method Container.add(Component,Object) is not applicable
+      (argument mismatch; ProductsPanel cannot be converted to Component)
+.\gui\MainFrame.java:45: error: no suitable method found for add(OrdersPanel,String)
+        center.add(orders, "orders");
+              ^
+    method Container.add(String,Component) is not applicable
+      (argument mismatch; OrdersPanel cannot be converted to String)
+    method Container.add(Component,int) is not applicable
+      (argument mismatch; OrdersPanel cannot be converted to Component)
+    method Container.add(Component,Object) is not applicable
+      (argument mismatch; OrdersPanel cannot be converted to Component)
+.\gui\MainFrame.java:48: error: no suitable method found for add(AdminPanel,String)
+            center.add(admin, "admin");
+                  ^
+    method Container.add(String,Component) is not applicable
+      (argument mismatch; AdminPanel cannot be converted to String)
+    method Container.add(Component,int) is not applicable
+      (argument mismatch; AdminPanel cannot be converted to Component)
+    method Container.add(Component,Object) is not applicable
+      (argument mismatch; AdminPanel cannot be converted to Component)
+.\gui\MainFrame.java:134: error: cannot find symbol
+            case "products":  products.refresh();  break;
+                                      ^
+  symbol:   method refresh()
+  location: variable products of type ProductsPanel
+.\gui\MainFrame.java:136: error: cannot find symbol
+            case "orders":    orders.refresh();    break;
+                                    ^
+  symbol:   method refresh()
+  location: variable orders of type OrdersPanel
+.\gui\MainFrame.java:137: error: cannot find symbol
+            case "admin":     if (admin != null) admin.refresh(); break;
+                                                      ^
+  symbol:   method refresh()
+  location: variable admin of type AdminPanel
+.\gui\RecommendPanel.java:89: error: cannot find symbol
+        java.util.List<Recommendation> recs = engine.recommend(u, season.getSelectedItem(), 5);
+                       ^
+  symbol:   class Recommendation
+  location: class RecommendPanel
+.\gui\RecommendPanel.java:101: error: cannot find symbol
+        for (Recommendation r : recs) {
+             ^
+  symbol:   class Recommendation
+  location: class RecommendPanel
+.\gui\RecommendPanel.java:108: error: cannot find symbol
+            for (Recommendation r : recs) store.appendHistory(u.id, r.product.name);
+                 ^
+  symbol:   class Recommendation
+  location: class RecommendPanel
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+15 errors
